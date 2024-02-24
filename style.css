@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Orelega+One&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orelega+One&family=Protest+Riot&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*Este elemento posiciona hasta el lado contrario*/
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(255, 255, 255);
+}
+header img{
+    border-radius: 50px;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+    color: rgb(226, 43, 177);
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.perfil{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.perfil img{
+    width: 50%;
+}
+.footer {
+    margin-top: 30px;
+    padding: 30px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(141, 136, 136, 0.562);
+  }
+  
+  .footer .copyright {
+    text-align: center;
+    color: rgba(10, 9, 9, 0.8);
+  }
+  
+  
